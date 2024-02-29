@@ -1,11 +1,12 @@
+
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        System.out.println("I love pizza");
-        System.out.println("It's really good");
-        // This is a comment
-
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Qual o seu CPF?");
+        String CPF = scanner.nextLine();
+        System.out.println("Verificando o seu CPF...");
 
     }
 }
